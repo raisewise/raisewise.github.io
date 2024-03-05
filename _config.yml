@@ -20,7 +20,7 @@
 lang:                  ko
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Archives
+title:                 Archive
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -28,7 +28,7 @@ description:           >
   DDD
 
 # A shorter description for the sidebar.
-tagline:               AAA
+tagline:               정리
 
 # A list of keywords for your blog
 keywords:              []
@@ -48,6 +48,8 @@ author:
 
 # Add links to the sidebar.
 menu:
+  - title:             Develop
+    url:               /dev/
   - title:             Example
     url:               /example/
   - title:             Documentation
