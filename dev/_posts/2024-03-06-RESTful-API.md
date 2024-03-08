@@ -10,3 +10,4 @@ sitemap: false
 {:toc .large-only}
 
 ## RESTful API
+- REST(Representational State Transfer)
