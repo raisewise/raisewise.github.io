@@ -9,14 +9,40 @@ sitemap: false
 - Table of Contents
 {:toc .large-only}
 
+## API (Application Programming Interface)
+- 어플리케이션이 요청과 응답을 주고 받는 체계
+- Open API
+  - 누구나 쓸 수 있도록 공개된 API
+  - e.g. [공공데이터포털](https://www.data.go.kr/), 카카오, 네이버, google, [서울시 Open API](https://data.seoul.go.kr/together/guide/useGuide.do#sample-code-3), [한국투자증권 github](https://github.com/koreainvestment/open-trading-api/tree/main/postman)  
+
 ## RESTful API
-- REST(Representational State Transfer)
-- 
+- REST API (REpresentational State Transfer)
+- API를 구현하는 대표적인 방식
 
-## Open API
+## CRUD
+- 데이터를 다룰때 큰 틀의 기준이 되는 4가지 요청
+- Create = POST
+- Read = GET
+- Update = PUT, PATCH
+- Delete = DELETE
 
-[서울시 Open API](https://data.seoul.go.kr/together/guide/useGuide.do#sample-code-3)  
-[한국투자증권 github](https://github.com/koreainvestment/open-trading-api/tree/main/postman)  
+## REST 구성 3가지
+- 자원 (Resource)
+  - 접근할 대상
+- 메서드 (Method)
+  - GET
+  - POST
+  - PUT
+  - 메시지 (Message)
+
+## 호출
+- URI (Uniform Resource Identifier)
+	- 특정 리소스를 식별하는 통합 자원 식별자를 의미
+- URN (Uniform Resource Name)
+- URL (Uniform Resource Locator)
+	- URI의 하위개념
+	- 인터넷에서 웹페이지, 이미지, 비디오 등 리소스의 위치를 가리키는 문자열
+	- HTTP 맥락에서 URL은 웹주소 또는 링크
 
 ## postman
 - API를 디자인, 빌드, 테스트를 반복하기 위한 API 플랫폼
