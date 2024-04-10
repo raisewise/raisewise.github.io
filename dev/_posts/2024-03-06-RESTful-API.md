@@ -9,6 +9,18 @@ sitemap: false
 - Table of Contents
 {:toc .large-only}
 
+
+## CRUD !!알아야 할 것
+- 데이터를 다룰때 큰 틀의 기준이 되는 4가지 요청
+- 데이터의 처리 기능
+  | CRUD      | 정의                     | Method     |
+  |:----------|:------------------------|:-----------|
+  | Create    | 리소스 생성                | POST       |
+  | Read      | 리소스 조회 및 정보 가져오기   | GET        |
+  | Update    | 리소스 수정                | PUT        |
+  | Update    | 리소스 부분 수정            | PATCH      |
+  | Delete    | 리소스 삭제                | DELETE     |
+
 ## API (Application Programming Interface)
 - 어플리케이션이 요청과 응답을 주고 받는 체계
 - Open API
@@ -19,21 +31,21 @@ sitemap: false
 - REST API (REpresentational State Transfer)
 - API를 구현하는 대표적인 방식
 
-## CRUD
-- 데이터를 다룰때 큰 틀의 기준이 되는 4가지 요청
-- Create = POST
-- Read = GET
-- Update = PUT, PATCH
-- Delete = DELETE
-
 ## REST 구성 3가지
 - 자원 (Resource)
   - 접근할 대상
 - 메서드 (Method)
   - GET
   - POST
-  - PUT
-  - 메시지 (Message)
+  - PUT (전체 수정)
+  - PATCH (부분 수정)
+  - DELETE
+
+  | Method     |
+  |:-----------|
+  | POST       |
+  | GET        |
+  | PUT        |
 
 ## 호출
 - URI (Uniform Resource Identifier)
